@@ -18,11 +18,18 @@
     <!-- my style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- VueJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.4/dist/vue.js"></script>
+
     <title>Boilerplate</title>
 </head>
 
 <body>
+    <div id="root">
 
+        <h1> {{ text }}</h1>
+        <img :src=imageUrl :alt=text>
+    </div>
 
 
 
